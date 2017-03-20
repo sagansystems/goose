@@ -15,7 +15,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	_ "github.com/mattn/go-sqlite3"
+	_ "gopkg.in/mattn/go-sqlite3.v1"
 	_ "github.com/ziutek/mymysql/godrv"
 )
 
