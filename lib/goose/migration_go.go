@@ -103,7 +103,7 @@ import (
 	"encoding/gob"
 
 	_ "{{.Import}}"
-	"bitbucket.org/jeffwatts/goose/lib/goose"
+	"github.com/sagansystems/goose/lib/goose"
 )
 
 func main() {

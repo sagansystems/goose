@@ -1,12 +1,13 @@
 package main
 
 import (
-	"bitbucket.org/jeffwatts/goose/lib/goose"
 	"database/sql"
 	"fmt"
 	"log"
 	"path/filepath"
 	"time"
+
+	"github.com/sagansystems/goose/lib/goose"
 )
 
 var statusCmd = &Command{
